@@ -1,0 +1,87 @@
+.modal-wrap {
+    position: fixed;
+    display: none;
+    width: 100%;
+    padding-top: 50px;
+    background-color: var(--main-header-bg-color);
+    overflow-x: hidden;
+}
+
+.modal-info-wrapp{
+    height: 100vh;
+    padding-bottom: 150px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.modal-info-wrapp::-webkit-scrollbar{
+    width: 0;
+}
+
+.modal-back-btn{
+    display: inline-flex;
+    margin-bottom: 64px;
+    padding: 6px 23px;
+    color: var(--main-text-color);
+    background-color: var(--main-header-bg-color);
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.293139);
+    border: none;
+    border-radius: 4px;
+}
+
+.text-wrap-start {
+    margin-bottom: 68px;
+}
+
+.modal-title {
+    color: var(--main-text-color);
+}
+
+.text-list {
+    margin-right: 140px;
+}
+
+.modal-list {
+    flex-wrap: wrap;
+    @include list-unstiled(0, 0, 0);
+}
+
+.modal-item {
+    display: flex;
+    align-items: center;
+    line-height: 32px;
+    color: var(--main-text-color);
+    white-space: nowrap;  
+}
+
+.countries-link-title {
+    color: var(--main-text-color);
+}
+
+.modal-borders-list{
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-left: 2px;
+    list-style-type: none;
+    display: flex;
+    flex-shrink: 0;
+    flex: wrap;
+}
+
+.modal-border-countries {
+    width: 100%;
+    max-width: 50px;
+    margin-right: 6px;
+    padding: 4px 10px;
+    color: var(--main-text-color);
+    background-color: var(--main-header-bg-color);
+    font-size: 14px;
+    line-height: 19px;
+    box-shadow: 0px 0px 4px 1px rgba(159, 158, 158, 0.256);
+}
+
+@include mobile-first(992px) {
+    .flag-wrap {
+        margin-right: 120px;
+    }
+}

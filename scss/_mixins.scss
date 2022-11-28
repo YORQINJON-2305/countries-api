@@ -1,0 +1,24 @@
+@mixin sticky-footer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+}
+
+@mixin mobile-first($min) {
+    @media only screen and (min-width: $min) {
+        @content;
+    }
+}
+
+@mixin list-unstiled($m-t, $m-b, $pl) {
+    margin-top: $m-t;
+    margin-bottom: $m-b;
+    padding-left: $pl;
+    list-style: none;
+}
+
+@mixin link-unstiled {
+    display: inline-block;
+    text-decoration: none;
+}

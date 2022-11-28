@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+img{
+    display: block;
+    height: auto;
+}
+
+body{
+    @include sticky-footer;
+    font-family: var(--main-font-family);
+    font-weight: var(--main-font-weight);
+    background-color: var(--main-body-bg-color);
+    overflow-x: hidden;
+}
+
+a{
+    @include link-unstiled
+}
+
+.site-main{
+    flex-grow: 1;
+}

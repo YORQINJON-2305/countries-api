@@ -1,0 +1,92 @@
+.countries {
+    padding-bottom: 45px;
+}
+
+// .countries-list {
+// }
+
+// .countries-item {
+// }
+
+.countries-wrapper{
+    padding: 0 0 25px 0;
+    width: 264px;
+    background-color: var(--main-header-bg-color);
+    box-shadow: 0px 5px 10px 0px #0000004e;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.countries-images {
+    width: 100%;
+    max-width: 264px;
+    height: 150px;
+    border-radius: 5px 5px 0 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.753);
+}
+
+.countries-text-info{
+    padding-right: 10px;
+}
+
+.countries-name {
+    margin-top: 24px;
+    padding-bottom: 16px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 26px;
+    color: var(--main-text-color);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.countries-population {
+    margin-bottom: 8px;
+}
+
+.countries-population-text {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--main-text-color);
+}
+
+.countries-population-description {
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--main-text-color);
+}
+
+.countries-region {
+    margin-bottom: 8px;
+}
+
+.countries-region-text {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--main-text-color);
+}
+
+.countries-region-description {
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--main-text-color);
+}
+
+// .countries-capital {
+// }
+
+.countries-capital-text {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--main-text-color);
+}
+
+.countries-capital-description {
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--main-text-color);
+}
